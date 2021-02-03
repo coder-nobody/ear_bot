@@ -88,7 +88,7 @@ class Wa():
 
     def processing(self):
         # print(users)
-        print(self.sname+" : "+self.sno+" "+self.message)
+        # print(self.sname+" : "+self.sno+" "+self.message)
         self.last=users[self.sno]['last']
         if(self.last==0):            
             client.SendSingleMessage(message=que[0], from_='HEAR.COM', to=self.to,allowedChannels=allowedChannels)
