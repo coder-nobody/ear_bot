@@ -8,7 +8,7 @@ from TextClient import TextClient
 r=open("cf","rb")
 config=pickle.load(r)
 r.close()
-admin=['00918210740791']
+admin=['00+country_code + 10 digit mobile number'] #eg for India 00918791377220 you must enter the number here
 
 r=open("cred","rb")
 token=pickle.load(r)[0]
